@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "harmonycraft_mod:block/asphalt_block",
+    "down":  "harmonycraft_mod:block/asphalt_white_str_block",
+    "up":    "harmonycraft_mod:block/asphalt_white_str_block",
+    "north": "harmonycraft_mod:block/asphalt_white_str_block",
+    "south": "harmonycraft_mod:block/asphalt_white_str_block",
+    "east":  "harmonycraft_mod:block/asphalt_block",
+    "west":  "harmonycraft_mod:block/asphalt_block"
+  }
+}

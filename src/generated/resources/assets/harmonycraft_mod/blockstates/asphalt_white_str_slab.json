@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab"
+    },
+    "type=double": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_block"
+    },
+    "type=top": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab_top"
+    }
+  }
+}

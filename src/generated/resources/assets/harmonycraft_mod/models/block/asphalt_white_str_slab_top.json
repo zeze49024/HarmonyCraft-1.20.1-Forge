@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "harmonycraft_mod:block/asphalt_block",
+    "top":    "harmonycraft_mod:block/asphalt_white_str_block",
+    "bottom": "harmonycraft_mod:block/asphalt_white_str_block",
+    "north": "harmonycraft_mod:block/asphalt_white_str_block",
+    "south": "harmonycraft_mod:block/asphalt_white_str_block",
+    "east":  "harmonycraft_mod:block/asphalt_block",
+    "west":  "harmonycraft_mod:block/asphalt_block"
+  },
+  "elements": [
+    {
+      "from": [0, 8, 0],
+      "to":   [16, 16, 16],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down"  },
+        "up":    { "texture": "#top",    "cullface": "up"    },
+        "north": { "texture": "#north",  "cullface": "north" },
+        "south": { "texture": "#south",  "cullface": "south" },
+        "east":  { "texture": "#east",   "cullface": "east"  },
+        "west":  { "texture": "#west",   "cullface": "west"  }
+      }
+    }
+  ]
+}

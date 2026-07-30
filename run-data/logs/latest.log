@@ -1,0 +1,35 @@
+[297月2026 10:32:34.148] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\zeze_\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, harmonycraft_mod, --all, --output, D:\myCodeProject\minecraftModCode\HarmonyCraft-1.20.1-Forge\src\generated\resources, --existing, D:\myCodeProject\minecraftModCode\HarmonyCraft-1.20.1-Forge\src\main\resources]
+[297月2026 10:32:34.155] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Microsoft; OS Windows 11 arch amd64 version 10.0
+[297月2026 10:32:34.274] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[297月2026 10:32:34.336] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/zeze_/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[297月2026 10:32:34.565] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\zeze_\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[297月2026 10:32:34.569] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\zeze_\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[297月2026 10:32:34.572] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\zeze_\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[297月2026 10:32:34.574] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\zeze_\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[297月2026 10:32:34.636] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[297月2026 10:32:35.663] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\zeze_\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, harmonycraft_mod, --all, --output, D:\myCodeProject\minecraftModCode\HarmonyCraft-1.20.1-Forge\src\generated\resources, --existing, D:\myCodeProject\minecraftModCode\HarmonyCraft-1.20.1-Forge\src\main\resources]
+[297月2026 10:32:35.977] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [harmonycraft_mod]
+[297月2026 10:32:39.767] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[297月2026 10:32:39.768] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[297月2026 10:32:40.088] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/zeze_/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[297月2026 10:32:40.088] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/zeze_/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.10_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[297月2026 10:32:40.212] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[297月2026 10:32:40.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 2 ms
+[297月2026 10:32:40.214] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[297月2026 10:32:40.280] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 65 ms
+[297月2026 10:32:40.280] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id harmonycraft_mod
+[297月2026 10:32:40.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id harmonycraft_mod finished after 78 ms
+[297月2026 10:32:40.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id harmonycraft_mod
+[297月2026 10:32:40.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id harmonycraft_mod finished after 0 ms
+[297月2026 10:32:40.359] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: harmonycraft_mod
+[297月2026 10:32:40.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: harmonycraft_mod finished after 85 ms
+[297月2026 10:32:40.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: harmonycraft_mod
+[297月2026 10:32:40.445] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: harmonycraft_mod finished after 0 ms
+[297月2026 10:32:40.447] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: en_us
+[297月2026 10:32:40.447] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: en_us finished after 0 ms
+[297月2026 10:32:40.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: zh_cn
+[297月2026 10:32:40.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: zh_cn finished after 0 ms
+[297月2026 10:32:40.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Languages: ja_jp
+[297月2026 10:32:40.448] [main/INFO] [net.minecraft.data.DataGenerator/]: Languages: ja_jp finished after 0 ms
+[297月2026 10:32:40.448] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 236 ms
+[297月2026 10:32:40.454] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 23, old count: 23, new count: 24, removed stale: 0, written: 2

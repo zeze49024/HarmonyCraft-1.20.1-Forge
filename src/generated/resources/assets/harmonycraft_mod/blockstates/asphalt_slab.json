@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "harmonycraft_mod:block/asphalt_slab"
+    },
+    "type=double": {
+      "model": "harmonycraft_mod:block/asphalt_block"
+    },
+    "type=top": {
+      "model": "harmonycraft_mod:block/asphalt_slab_top"
+    }
+  }
+}
