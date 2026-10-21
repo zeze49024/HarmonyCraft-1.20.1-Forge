@@ -15,12 +15,13 @@ public class ModZhCnLangProvider extends LanguageProvider {
     protected void addTranslations() {
         //物品栏
         add("itemGroup.road_tab", "HarmonyCraft | 道路");
+        add("itemGroup.har_item_tab", "HarmonyCraft | 其他物品");
         //物品
         add(ModItems.HARMONY_LOGO.get(), "花梦工艺Logo");
+        add(ModItems.HARMONY_TRANSIT.get(), "花梦交通卡");
         //方块
         add(ModBlocks.ASPHALT_BLOCK.get(), "沥青道路");
         add(ModBlocks.ASPHALT_SLAB.get(), "沥青道路半砖");
-        add(ModBlocks.ASPHALT_WHITE_STR_BLOCK.get(), "");
-        add(ModBlocks.ASPHALT_WHITE_STR_SLAB.get(), "沥青道路白线半砖");
+        ModRoadLanguage.add(this, "zh_cn");
     }
 }

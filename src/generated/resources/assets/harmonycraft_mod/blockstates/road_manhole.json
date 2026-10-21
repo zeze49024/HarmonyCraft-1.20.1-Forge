@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,shape=round": {
+      "model": "harmonycraft_mod:block/road_manhole_round",
+      "y": 90
+    },
+    "facing=east,shape=square": {
+      "model": "harmonycraft_mod:block/road_manhole_square",
+      "y": 90
+    },
+    "facing=north,shape=round": {
+      "model": "harmonycraft_mod:block/road_manhole_round"
+    },
+    "facing=north,shape=square": {
+      "model": "harmonycraft_mod:block/road_manhole_square"
+    },
+    "facing=south,shape=round": {
+      "model": "harmonycraft_mod:block/road_manhole_round",
+      "y": 180
+    },
+    "facing=south,shape=square": {
+      "model": "harmonycraft_mod:block/road_manhole_square",
+      "y": 180
+    },
+    "facing=west,shape=round": {
+      "model": "harmonycraft_mod:block/road_manhole_round",
+      "y": 270
+    },
+    "facing=west,shape=square": {
+      "model": "harmonycraft_mod:block/road_manhole_square",
+      "y": 270
+    }
+  }
+}

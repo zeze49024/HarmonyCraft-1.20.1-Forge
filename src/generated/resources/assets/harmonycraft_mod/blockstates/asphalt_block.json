@@ -1,7 +1,22 @@
 {
   "variants": {
-    "": {
-      "model": "harmonycraft_mod:block/asphalt_block"
-    }
+    "": [
+      {
+        "model": "harmonycraft_mod:block/asphalt_block",
+        "weight": 835
+      },
+      {
+        "model": "harmonycraft_mod:block/asphalt_block_cracked",
+        "weight": 55
+      },
+      {
+        "model": "harmonycraft_mod:block/asphalt_block_patched",
+        "weight": 55
+      },
+      {
+        "model": "harmonycraft_mod:block/asphalt_block_pothole",
+        "weight": 55
+      }
+    ]
   }
 }

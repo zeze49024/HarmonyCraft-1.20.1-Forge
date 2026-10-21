@@ -16,9 +16,13 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
+//获取数据生成器、数据输出、已存在文件帮助器、HolderLookup.Provider的 CompletableFuture
+//并调用各个数据生成文件
+//以用于生成方块模型文件、方块状态文件、方块战利品列表文件、方块标签文件、合成配方文件、物品模型文件、物品标签文件及各语言的语言文件
 @Mod.EventBusSubscriber(modid = HarmonyCraftMod.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModDataGenerator {
     @SubscribeEvent
+    //监听GatherDataEvent事件
     public static void gatherData(GatherDataEvent event) {
         //获取数据生成器
         DataGenerator generator = event.getGenerator();
@@ -40,6 +44,7 @@ public class ModDataGenerator {
         //添加物品标签提供器
         generator.addProvider(event.includeServer(), new ModItemTagsProvider(packOutput,lookupProvider,blockTagsProvider.contentsGetter(),existingFileHelper));
         //客户端数据
+        generator.addProvider(event.includeClient(), new ModRoadTexturesProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new ModItemModelsProvider(packOutput, existingFileHelper));
         //语言文件

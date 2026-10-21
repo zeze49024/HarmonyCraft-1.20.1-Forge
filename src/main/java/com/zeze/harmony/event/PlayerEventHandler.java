@@ -18,7 +18,7 @@ public class PlayerEventHandler {
         Player player = event.getEntity();
         // 发送欢迎消息给玩家
         // 分割线
-        Component line = Component.literal("============================================================================")
+        Component line = Component.literal("==============================================")
                 // 设置消息样式为红色，以警告玩家
                 .withStyle(ChatFormatting.WHITE);
 

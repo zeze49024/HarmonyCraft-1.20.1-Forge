@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "facing=east,lowered=false,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn",
+      "y": 90
+    },
+    "facing=east,lowered=false,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_mirrored",
+      "y": 90
+    },
+    "facing=east,lowered=true,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered",
+      "y": 90
+    },
+    "facing=east,lowered=true,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered_mirrored",
+      "y": 90
+    },
+    "facing=north,lowered=false,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn"
+    },
+    "facing=north,lowered=false,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_mirrored"
+    },
+    "facing=north,lowered=true,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered"
+    },
+    "facing=north,lowered=true,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered_mirrored"
+    },
+    "facing=south,lowered=false,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn",
+      "y": 180
+    },
+    "facing=south,lowered=false,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_mirrored",
+      "y": 180
+    },
+    "facing=south,lowered=true,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered",
+      "y": 180
+    },
+    "facing=south,lowered=true,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered_mirrored",
+      "y": 180
+    },
+    "facing=west,lowered=false,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn",
+      "y": 270
+    },
+    "facing=west,lowered=false,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_mirrored",
+      "y": 270
+    },
+    "facing=west,lowered=true,mirrored=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered",
+      "y": 270
+    },
+    "facing=west,lowered=true,mirrored=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_uturn_lowered_mirrored",
+      "y": 270
+    }
+  }
+}

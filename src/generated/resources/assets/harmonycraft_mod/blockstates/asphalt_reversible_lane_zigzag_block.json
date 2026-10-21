@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "harmonycraft_mod:block/asphalt_reversible_lane_zigzag_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "harmonycraft_mod:block/asphalt_reversible_lane_zigzag_block"
+    },
+    "facing=south": {
+      "model": "harmonycraft_mod:block/asphalt_reversible_lane_zigzag_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "harmonycraft_mod:block/asphalt_reversible_lane_zigzag_block",
+      "y": 270
+    }
+  }
+}

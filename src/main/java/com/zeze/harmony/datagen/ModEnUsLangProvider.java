@@ -15,12 +15,13 @@ public class ModEnUsLangProvider extends LanguageProvider {
     protected void addTranslations() {
         //物品栏
         add("itemGroup.road_tab", "HarmonyCraft | Road");
+        add("itemGroup.har_item_tab", "HarmonyCraft | Other Items");
         //物品
         add(ModItems.HARMONY_LOGO.get(), "Harmony Logo");
+        add(ModItems.HARMONY_TRANSIT.get(), "Harmony Transit");
         //方块
         add(ModBlocks.ASPHALT_BLOCK.get(), "Asphalt Block");
         add(ModBlocks.ASPHALT_SLAB.get(), "Asphalt Slab");
-        add(ModBlocks.ASPHALT_WHITE_STR_BLOCK.get(), "White Line");
-        add(ModBlocks.ASPHALT_WHITE_STR_SLAB.get(), "White Line Slab");
+        ModRoadLanguage.add(this, "en_us");
     }
 }

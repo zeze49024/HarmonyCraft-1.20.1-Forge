@@ -14,5 +14,7 @@ public class ModItemModelsProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.HARMONY_LOGO.get());
+        basicItem(ModItems.HARMONY_TRANSIT.get());
     }
+
 }

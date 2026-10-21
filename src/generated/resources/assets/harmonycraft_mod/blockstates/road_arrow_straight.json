@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,lowered=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight",
+      "y": 90
+    },
+    "facing=east,lowered=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_lowered",
+      "y": 90
+    },
+    "facing=north,lowered=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight"
+    },
+    "facing=north,lowered=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_lowered"
+    },
+    "facing=south,lowered=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight",
+      "y": 180
+    },
+    "facing=south,lowered=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_lowered",
+      "y": 180
+    },
+    "facing=west,lowered=false": {
+      "model": "harmonycraft_mod:block/road_arrow_straight",
+      "y": 270
+    },
+    "facing=west,lowered=true": {
+      "model": "harmonycraft_mod:block/road_arrow_straight_lowered",
+      "y": 270
+    }
+  }
+}

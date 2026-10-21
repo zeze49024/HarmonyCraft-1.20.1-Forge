@@ -15,12 +15,13 @@ public class ModJaJpLangProvider extends LanguageProvider {
     protected void addTranslations() {
         //物品栏
         add("itemGroup.road_tab", "ハーモニークラフト | 道路");
+        add("itemGroup.har_item_tab", "ハーモニークラフト | その他");
         //物品
         add(ModItems.HARMONY_LOGO.get(), "ハーモニーロゴ");
+        add(ModItems.HARMONY_TRANSIT.get(), "ハーモニーファイル");
         //方块
         add(ModBlocks.ASPHALT_BLOCK.get(), "アスファルトブロック");
         add(ModBlocks.ASPHALT_SLAB.get(), "アスファルトスラブ");
-        add(ModBlocks.ASPHALT_WHITE_STR_BLOCK.get(), "白線アスファルト");
-        add(ModBlocks.ASPHALT_WHITE_STR_SLAB.get(), "白線アスファルトスラブ");
+        ModRoadLanguage.add(this, "ja_jp");
     }
 }

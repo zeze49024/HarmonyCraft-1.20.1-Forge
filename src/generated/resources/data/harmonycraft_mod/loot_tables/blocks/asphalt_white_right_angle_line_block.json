@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "harmonycraft_mod:asphalt_white_right_angle_line_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "harmonycraft_mod:blocks/asphalt_white_right_angle_line_block"
+}

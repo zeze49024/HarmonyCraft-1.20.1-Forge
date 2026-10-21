@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "harmonycraft_mod:block/road_arrow_merge_right"
+  }
+}

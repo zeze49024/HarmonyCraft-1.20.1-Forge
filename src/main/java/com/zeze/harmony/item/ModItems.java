@@ -11,8 +11,12 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, HarmonyCraftMod.MOD_ID);
     //注册物品
+    //logo
     public static final RegistryObject<Item> HARMONY_LOGO =
         ITEMS.register("harmony_logo",() -> new Item(new Item.Properties().stacksTo(64)));
+    //花梦交通卡
+    public static final RegistryObject<Item> HARMONY_TRANSIT =
+        ITEMS.register("harmony_transit",() -> new Item(new Item.Properties().stacksTo(64)));
 
 //    public static final RegistryObject<Item> ASPHALT_SLAB =
 //            ITEMS.register("asphalt_slab",() -> new Item(new Item.Properties().stacksTo(64)));

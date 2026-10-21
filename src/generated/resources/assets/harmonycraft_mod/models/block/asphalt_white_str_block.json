@@ -1,12 +1,51 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#bottom"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#side"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#north"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#south"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#top"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
   "textures": {
+    "bottom": "harmonycraft_mod:block/asphalt_block",
+    "north": "harmonycraft_mod:block/road_white_solid_line_side_north",
     "particle": "harmonycraft_mod:block/asphalt_block",
-    "down":  "harmonycraft_mod:block/asphalt_white_str_block",
-    "up":    "harmonycraft_mod:block/asphalt_white_str_block",
-    "north": "harmonycraft_mod:block/asphalt_white_str_block",
-    "south": "harmonycraft_mod:block/asphalt_white_str_block",
-    "east":  "harmonycraft_mod:block/asphalt_block",
-    "west":  "harmonycraft_mod:block/asphalt_block"
+    "side": "harmonycraft_mod:block/asphalt_block",
+    "south": "harmonycraft_mod:block/road_white_solid_line_side_south",
+    "top": "harmonycraft_mod:block/road_white_solid_line"
   }
 }

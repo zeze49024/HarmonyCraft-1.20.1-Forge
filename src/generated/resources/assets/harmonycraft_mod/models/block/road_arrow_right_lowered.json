@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:block/block",
+  "ambientocclusion": false,
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#marking",
+          "uv": [
+            0.0,
+            16.0,
+            16.0,
+            0.0
+          ]
+        },
+        "up": {
+          "texture": "#marking",
+          "uv": [
+            0.0,
+            0.0,
+            16.0,
+            16.0
+          ]
+        }
+      },
+      "from": [
+        -2,
+        -7.95,
+        -10
+      ],
+      "shade": false,
+      "to": [
+        18,
+        -7.95,
+        26
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "marking": "harmonycraft_mod:block/road_arrow_right",
+    "particle": "harmonycraft_mod:block/road_arrow_right"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "harmonycraft_mod:block/asphalt_faded_slab"
+    },
+    "type=double": {
+      "model": "harmonycraft_mod:block/asphalt_faded_block"
+    },
+    "type=top": {
+      "model": "harmonycraft_mod:block/asphalt_faded_slab_top"
+    }
+  }
+}

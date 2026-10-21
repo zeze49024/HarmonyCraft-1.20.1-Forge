@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:block/block",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "cullface": "down",
+          "texture": "#bottom"
+        },
+        "east": {
+          "cullface": "east",
+          "texture": "#east"
+        },
+        "north": {
+          "cullface": "north",
+          "texture": "#north"
+        },
+        "south": {
+          "cullface": "south",
+          "texture": "#side"
+        },
+        "up": {
+          "cullface": "up",
+          "texture": "#top"
+        },
+        "west": {
+          "cullface": "west",
+          "texture": "#side"
+        }
+      },
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ]
+    }
+  ],
+  "textures": {
+    "bottom": "harmonycraft_mod:block/asphalt_block",
+    "east": "harmonycraft_mod:block/road_white_double_curved_line_side_east",
+    "north": "harmonycraft_mod:block/road_white_double_curved_line_side_north",
+    "particle": "harmonycraft_mod:block/asphalt_block",
+    "side": "harmonycraft_mod:block/asphalt_block",
+    "top": "harmonycraft_mod:block/road_white_double_curved_line"
+  }
+}

@@ -1,13 +1,49 @@
 {
   "variants": {
-    "type=bottom": {
+    "facing=east,type=bottom": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab",
+      "y": 90
+    },
+    "facing=east,type=double": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_block",
+      "y": 90
+    },
+    "facing=east,type=top": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab_top",
+      "y": 90
+    },
+    "facing=north,type=bottom": {
       "model": "harmonycraft_mod:block/asphalt_white_str_slab"
     },
-    "type=double": {
+    "facing=north,type=double": {
       "model": "harmonycraft_mod:block/asphalt_white_str_block"
     },
-    "type=top": {
+    "facing=north,type=top": {
       "model": "harmonycraft_mod:block/asphalt_white_str_slab_top"
+    },
+    "facing=south,type=bottom": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab",
+      "y": 180
+    },
+    "facing=south,type=double": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_block",
+      "y": 180
+    },
+    "facing=south,type=top": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab_top",
+      "y": 180
+    },
+    "facing=west,type=bottom": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab",
+      "y": 270
+    },
+    "facing=west,type=double": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_block",
+      "y": 270
+    },
+    "facing=west,type=top": {
+      "model": "harmonycraft_mod:block/asphalt_white_str_slab_top",
+      "y": 270
     }
   }
 }

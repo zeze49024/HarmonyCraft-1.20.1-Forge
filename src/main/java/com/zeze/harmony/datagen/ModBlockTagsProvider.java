@@ -21,11 +21,17 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
         //可用搞头挖掘
-        tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.ASPHALT_BLOCK.get())
-                .add(ModBlocks.ASPHALT_SLAB.get())
-                .add(ModBlocks.ASPHALT_WHITE_STR_BLOCK.get())
-                .add(ModBlocks.ASPHALT_WHITE_STR_SLAB.get());
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.ASPHALT_BLOCK.get(), ModBlocks.ASPHALT_SLAB.get());
+        tag(BlockTags.SLABS).add(ModBlocks.ASPHALT_SLAB.get());
+        ModBlocks.ASPHALT_VARIANTS.forEach(variant -> {
+            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(variant.block().get(), variant.slab().get());
+            tag(BlockTags.SLABS).add(variant.slab().get());
+        });
+        tag(BlockTags.MINEABLE_WITH_PICKAXE).add(ModBlocks.ROAD_MANHOLE.get(), ModBlocks.ROAD_DRAIN.get());
+        ModBlocks.ROAD_MARKINGS.forEach(road -> {
+            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(road.block().get(), road.slab().get());
+            tag(BlockTags.SLABS).add(road.slab().get());
+        });
 
     }
 }

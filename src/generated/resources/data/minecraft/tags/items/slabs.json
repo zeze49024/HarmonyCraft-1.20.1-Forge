@@ -1,0 +1,28 @@
+{
+  "values": [
+    "harmonycraft_mod:asphalt_slab",
+    "harmonycraft_mod:asphalt_new_slab",
+    "harmonycraft_mod:asphalt_faded_slab",
+    "harmonycraft_mod:asphalt_white_str_slab",
+    "harmonycraft_mod:asphalt_white_dashed_line_slab",
+    "harmonycraft_mod:asphalt_white_double_line_slab",
+    "harmonycraft_mod:asphalt_yellow_solid_line_slab",
+    "harmonycraft_mod:asphalt_yellow_dashed_line_slab",
+    "harmonycraft_mod:asphalt_yellow_double_line_slab",
+    "harmonycraft_mod:asphalt_stop_line_slab",
+    "harmonycraft_mod:asphalt_crosswalk_slab",
+    "harmonycraft_mod:asphalt_white_diagonal_line_slab",
+    "harmonycraft_mod:asphalt_yellow_diagonal_line_slab",
+    "harmonycraft_mod:asphalt_white_double_diagonal_line_slab",
+    "harmonycraft_mod:asphalt_yellow_double_diagonal_line_slab",
+    "harmonycraft_mod:asphalt_white_right_angle_line_slab",
+    "harmonycraft_mod:asphalt_yellow_right_angle_line_slab",
+    "harmonycraft_mod:asphalt_white_double_right_angle_line_slab",
+    "harmonycraft_mod:asphalt_yellow_double_right_angle_line_slab",
+    "harmonycraft_mod:asphalt_white_curved_line_slab",
+    "harmonycraft_mod:asphalt_yellow_curved_line_slab",
+    "harmonycraft_mod:asphalt_white_double_curved_line_slab",
+    "harmonycraft_mod:asphalt_yellow_double_curved_line_slab",
+    "harmonycraft_mod:asphalt_reversible_lane_zigzag_slab"
+  ]
+}
